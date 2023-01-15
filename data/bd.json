@@ -1,0 +1,148 @@
+{
+  "users": [
+    {
+      "email": "galaxylogin@yandex.com",
+      "password": "$2a$10$plmTf/7rJRK8Gq7Pj8fOc.YIicE7U2cuCz.gMB20xEmgRwFJaKzB2",
+      "first_name": "Bek",
+      "last_name": "Jo'rabekov",
+      "gender": "male",
+      "id": 1
+    },
+    {
+      "email": "galaxylogo@yandex.com",
+      "password": "$2a$10$HKpAN9OJgdUJmIm1qIBmyec.o9r6VXtoc2EnG8BDM41XNb8jVLw5e",
+      "first_name": "Bek",
+      "last_name": "Jo'rabekov",
+      "gender": "male",
+      "id": 2
+    }
+  ],
+  "category": [
+    {
+      "category_name": "Samsung",
+      "id": 1
+    },
+    {
+      "category_name": "Apple",
+      "id": 2
+    },
+    {
+      "category_name": "Xiaomi",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "product_name": "SAMSUNG Galaxy S22 Ultra",
+      "product_price": "11204000",
+      "product_image": "https://cdn.macbro.uz/macbro/349e92a8-687a-4ecf-a3a0-483ed254c25a",
+      "category_id": 1,
+      "id": 1
+    },
+    {
+      "product_name": "SAMSUNG Galaxy S22",
+      "product_price": "8255500",
+      "product_image": "https://cdn.macbro.uz/macbro/fa1c53e3-2296-4ec3-adfc-b8a70b66f72a",
+      "category_id": 1,
+      "id": 2
+    },
+    {
+      "product_name": "SAMSUNG Galaxy S21 FE",
+      "product_price": "6486500",
+      "product_image": "https://cdn.macbro.uz/macbro/489d0f57-5eea-423f-99f4-222ec072a8d0",
+      "category_id": 1,
+      "id": 3
+    },
+    {
+      "product_name": "iphone 14 Pro Max",
+      "product_price": "16511000",
+      "product_image": "https://cdn.macbro.uz/macbro/d35cfadb-2308-42fe-b7f5-da7dd24a4b74",
+      "category_id": 2,
+      "id": 4
+    },
+    {
+      "product_name": "iPhone 14 Plus",
+      "product_price": "11322000",
+      "product_image": "https://cdn.macbro.uz/macbro/c6e88cf5-bc5c-4817-8dc9-120abc2fc5f9",
+      "category_id": 2,
+      "id": 5
+    },
+    {
+      "product_name": "iPhone SE 3 (2022)",
+      "product_price": "5897000",
+      "product_image": "https://cdn.macbro.uz/macbro/c9436eea-1b7c-4368-8534-6659fa4bcd6d",
+      "category_id": 2,
+      "id": 6
+    },
+    {
+      "product_name": "Xiaomi Mi 12 Pro 12/256GB Серый",
+      "product_price": "9 485 000",
+      "product_image": "https://olcha.uz/image/220x220/products/QlLaKpBT7FcgGLj3zNrFujDY2R1lq5YyxNFQtXpNLXv2Ea1TD7OWgbFM0mtZ.jpeg",
+      "category_id": 3,
+      "id": 7
+    },
+    {
+      "product_name": "XIAOMI 12X",
+      "product_price": "6 270 000",
+      "product_image": "https://olcha.uz/image/220x220/products/dxHNpKIPT5uZf3qlyl05VWw7wGtcYIQGTfFezAR6KPcHcWuuzWvNcTgcNiXU.jpeg",
+      "id": 8
+    },
+    {
+      "product_name": "Xiaomi Poco X4 GT",
+      "product_price": "4 347 000",
+      "product_image": "https://olcha.uz/image/220x220/products/kH93IZVTdTMGytP43HP9F7dVp5C7wqg4X4FMldPFrLDLo5rJhEmIJaHs9w66.",
+      "category_id": 3,
+      "id": 9
+    }
+  ],
+  "orders": [
+    {
+      "user_id": 2,
+      "user_name": "Bek",
+      "user_email": "galaxylogo@yandex.com",
+      "items": [
+        {
+          "product_name": "SAMSUNG Galaxy S22 Ultra",
+          "product_price": "11204000",
+          "product_image": "https://cdn.macbro.uz/macbro/349e92a8-687a-4ecf-a3a0-483ed254c25a",
+          "category_id": 1,
+          "id": 1,
+          "price": "11204000",
+          "quantity": 1,
+          "itemTotal": 11204000
+        },
+        {
+          "product_name": "SAMSUNG Galaxy S21 FE",
+          "product_price": "6486500",
+          "product_image": "https://cdn.macbro.uz/macbro/489d0f57-5eea-423f-99f4-222ec072a8d0",
+          "category_id": 1,
+          "id": 3,
+          "price": "6486500",
+          "quantity": 1,
+          "itemTotal": 6486500
+        }
+      ],
+      "totalPrice": 17690500,
+      "id": 1
+    },
+    {
+      "user_id": 2,
+      "user_name": "Bek",
+      "user_email": "galaxylogo@yandex.com",
+      "items": [
+        {
+          "product_name": "SAMSUNG Galaxy S22 Ultra",
+          "product_price": "11204000",
+          "product_image": "https://cdn.macbro.uz/macbro/349e92a8-687a-4ecf-a3a0-483ed254c25a",
+          "category_id": 1,
+          "id": 1,
+          "price": "11204000",
+          "quantity": 1,
+          "itemTotal": 11204000
+        }
+      ],
+      "totalPrice": 11204000,
+      "id": 2
+    }
+  ]
+}
